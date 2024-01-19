@@ -1,0 +1,239 @@
+{
+    "name": "RequestT",
+    "namespace": "io.confluent.examples.clients.basicavro",
+    "type": "record",
+    "fields": [
+      {
+        "default": null,
+        "name": "REASONISSUANCE",
+        "type": [
+          "null",
+          "string"
+        ]
+      },
+      {
+        "default": null,
+        "name": "PC_NUMBER",
+        "type": [
+          "null",
+          "long"
+        ]
+      },
+      {
+        "default": null,
+        "name": "PC_GENDER",
+        "type": [
+          "null",
+          "string"
+        ]
+      },
+      {
+        "default": null,
+        "name": "PC_INITIALS",
+        "type": [
+          "null",
+          "string"
+        ]
+      },
+      {
+        "default": null,
+        "name": "PC_PREFIX",
+        "type": [
+          "null",
+          "string"
+        ]
+      },
+      {
+        "default": null,
+        "name": "PC_SURNAME",
+        "type": [
+          "null",
+          "string"
+        ]
+      },
+      {
+        "default": null,
+        "name": "PC_DATEOFBIRTH",
+        "type": [
+          "null",
+          "string"
+        ]
+      },
+      {
+        "default": null,
+        "name": "PC_KYC_SCORE",
+        "type": [
+          "null",
+          "int"
+        ]
+      },
+      {
+        "default": null,
+        "name": "PC_KYC_ISPEPLIST",
+        "type": [
+          "null",
+          "boolean"
+        ]
+      },
+      {
+        "default": null,
+        "name": "PC_KYC_ISSANCTIONHITLIST",
+        "type": [
+          "null",
+          "boolean"
+        ]
+      },
+      {
+        "default": null,
+        "name": "PC_MEDICAL_NONSMOKINGDISCOUNT",
+        "type": [
+          "null",
+          "boolean"
+        ]
+      },
+      {
+        "default": null,
+        "name": "PC_MEDICAL_ISACCEPTED",
+        "type": [
+          "null",
+          "boolean"
+        ]
+      },
+      {
+        "default": null,
+        "name": "PC_MEDICAL_MEDICALUPLIFTPREMIUMPERCENTAGE",
+        "type": [
+          "null",
+          "double"
+        ]
+      },
+      {
+        "default": null,
+        "name": "CO_NUMBER",
+        "type": [
+          "null",
+          "long"
+        ]
+      },
+      {
+        "default": null,
+        "name": "CO_GENDER",
+        "type": [
+          "null",
+          "string"
+        ]
+      },
+      {
+        "default": null,
+        "name": "CO_INITIALS",
+        "type": [
+          "null",
+          "string"
+        ]
+      },
+      {
+        "default": null,
+        "name": "CO_PREFIX",
+        "type": [
+          "null",
+          "string"
+        ]
+      },
+      {
+        "default": null,
+        "name": "CO_SURNAME",
+        "type": [
+          "null",
+          "string"
+        ]
+      },
+      {
+        "default": null,
+        "name": "CO_DATEOFBIRTH",
+        "type": [
+          "null",
+          "string"
+        ]
+      },
+      {
+        "default": null,
+        "name": "CO_KYC_SCORE",
+        "type": [
+          "null",
+          "int"
+        ]
+      },
+      {
+        "default": null,
+        "name": "CO_KYC_ISPEPLIST",
+        "type": [
+          "null",
+          "boolean"
+        ]
+      },
+      {
+        "default": null,
+        "name": "CO_KYC_ISSANCTIONHITLIST",
+        "type": [
+          "null",
+          "boolean"
+        ]
+      },
+      {
+        "default": null,
+        "name": "CO_MEDICAL_NONSMOKINGDISCOUNT",
+        "type": [
+          "null",
+          "boolean"
+        ]
+      },
+      {
+        "default": null,
+        "name": "CO_MEDICAL_ISACCEPTED",
+        "type": [
+          "null",
+          "boolean"
+        ]
+      },
+      {
+        "default": null,
+        "name": "CO_MEDICAL_MEDICALUPLIFTPREMIUMPERCENTAGE",
+        "type": [
+          "null",
+          "double"
+        ]
+      },
+      {
+        "default": null,
+        "name": "PURPOSEOFINSURANCE",
+        "type": [
+          "null",
+          "string"
+        ]
+      },
+      {
+        "default": null,
+        "name": "INSURANCETYPE",
+        "type": [
+          "null",
+          "string"
+        ]
+      },
+      {
+        "default": null,
+        "name": "STARTDATE",
+        "type": [
+          "null",
+          "string"
+        ]
+      },
+      {
+        "default": null,
+        "name": "EXPECTEDENDDATE",
+        "type": [
+          "null",
+          "string"
+        ]
+      }
+    ]
+  }

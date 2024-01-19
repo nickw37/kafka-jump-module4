@@ -1,0 +1,10 @@
+# Synthesis Training
+ssl.endpoint.identification.algorithm=https
+security.protocol=SASL_SSL
+sasl.mechanism=PLAIN
+bootstrap.servers=<Brokers-url>
+sasl.jaas.config=org.apache.kafka.common.security.plain.PlainLoginModule required username\="<Key>" password\="<Secret>";
+basic.auth.credentials.source=USER_INFO
+# Schema Registry
+schema.registry.url=<SR-url>
+schema.registry.basic.auth.user.info=<SR-Key>:<SR-Secret>
